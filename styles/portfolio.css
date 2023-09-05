@@ -71,7 +71,7 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image:url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 
@@ -116,6 +116,10 @@ nav a {
 }
 
 /*main section styles*/
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /*about section styles*/
 .about {
@@ -123,4 +127,11 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
+}
+.about-info-contain{
+    display: flex;
+    justify-content: space-around ;
+}
+.about-info{
+    text-align: center;
 }
